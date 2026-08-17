@@ -1,0 +1,12 @@
+/*
+====================================================
+WinRM Network Investigation
+====================================================
+
+Purpose:
+Identify network connections to WinRM TCP/5985
+from the suspected source IP.
+*/
+
+index=firewall dest_port=5985 src_ip=192.168.56.102
+| table _time src_ip dest_ip src_port dest_port action
