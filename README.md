@@ -137,6 +137,7 @@ ipconfig
 The attack simulation evidence is available here:
 
 **[Attack Simulation Evidence](evidence/01_attack_simulation.png)**
+**[Attack Simulation Evidence](evidence/02_encoded_powershell_execution.png)**
 
 ---
 
@@ -266,7 +267,7 @@ Three Base64-encoded commands were identified during the investigation.
 
 Base64 encoding by itself is not malicious. However, in this case the encoded commands were executed through a remote WinRM session and were followed by reconnaissance activity.
 
-**[Encoded PowerShell Evidence](evidence/02_encoded_powershell_execution.png)**
+
 
 ---
 
