@@ -1,0 +1,14 @@
+/*
+====================================================
+Authentication Investigation
+====================================================
+
+Purpose:
+Identify successful remote Windows logons and
+determine the source IP associated with the session.
+
+Logon Type 3 = Network Logon
+*/
+
+index=* EventCode=4624 Logon_Type=3
+| table _time host Account_Name src_ip Logon_Type
