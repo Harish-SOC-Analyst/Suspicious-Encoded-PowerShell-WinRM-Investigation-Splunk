@@ -1,0 +1,21 @@
+/*
+====================================================
+Detection: Suspicious Encoded PowerShell via WinRM
+====================================================
+
+Purpose:
+Detect PowerShell execution through a WinRM session
+where the PowerShell command uses an encoded command.
+
+Detection logic:
+- Sysmon Process Create event
+- PowerShell execution
+- Parent process is wsmprovhost.exe
+- Encoded PowerShell parameter detected
+*/
+
+index=sysmon EventCode=1
+Image="*powershell.exe*"
+ParentImage="*wsmprovhost.exe*"
+(CommandLine="*-enc*" OR CommandLine="*EncodedCommand*")
+| table _time host User Image CommandLine ParentImage ParentCommandLine
