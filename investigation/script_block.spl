@@ -1,0 +1,12 @@
+/*
+====================================================
+PowerShell Script Block Investigation
+====================================================
+
+Purpose:
+Review PowerShell Script Block Logging events
+associated with the suspicious activity.
+*/
+
+index=* EventCode=4104
+| table _time host UserID ScriptBlockText
