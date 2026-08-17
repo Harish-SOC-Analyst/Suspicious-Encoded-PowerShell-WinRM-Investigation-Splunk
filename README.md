@@ -137,7 +137,7 @@ ipconfig
 The attack simulation evidence is available here:
 
 **[Attack Simulation Evidence](evidence/01_attack_simulation.png)**
-**[Attack Simulation Evidence](evidence/02_encoded_powershell_execution.png)**
+**[Attack Simulation Evidence](evidence/02_encoded_execution.png)**
 
 ---
 
@@ -369,7 +369,7 @@ All investigation screenshots are stored in the [`evidence/`](evidence/) directo
 | Evidence                     | File                                                                                  |
 | ---------------------------- | ------------------------------------------------------------------------------------- |
 | Attack Simulation            | [`01_attack_simulation.png`](evidence/01_attack_simulation.png)                       |
-| Encoded PowerShell Execution | [`02_encoded_powershell_execution.png`](evidence/02_encoded_powershell_execution.png) |
+| Encoded PowerShell Execution | [`02_encoded_execution.png`](evidence/02_encoded_execution.png) |
 | Splunk Detection             | [`03_splunk_detection.png`](evidence/03_splunk_detection.png)                         |
 | Authentication Source IP     | [`04_authentication_source_ip.png`](evidence/04_authentication_source_ip.png)         |
 | WinRM Network Connection     | [`05_winrm_network_connection.png`](evidence/05_winrm_network_connection.png)         |
@@ -413,7 +413,7 @@ Suspicious-Encoded-PowerShell-WinRM-Investigation-Splunk/
 │
 ├── evidence/
 │   ├── 01_attack_simulation.png
-│   ├── 02_encoded_powershell_execution.png
+│   ├── 02_encoded_execution.png
 │   ├── 03_splunk_detection.png
 │   ├── 04_authentication_source_ip.png
 │   ├── 05_winrm_network_connection.png
