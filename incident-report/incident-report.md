@@ -238,7 +238,7 @@ Supporting evidence is stored in the repository under:
 | Evidence                | File                                  | Purpose                                            |
 | ----------------------- | ------------------------------------- | -------------------------------------------------- |
 | Attack Simulation       | `01_attack_simulation.png`            | Shows simulated remote WinRM activity from Kali    |
-| Encoded PowerShell      | `02_encoded_powershell_execution.png` | Shows encoded PowerShell execution                 |
+| Encoded PowerShell      | `02_encoded_execution.png` | Shows encoded PowerShell execution                 |
 | Splunk Detection        | `03_splunk_detection.png`             | Shows the primary detection result                 |
 | Authentication          | `04_authentication_source_ip.png`     | Shows the source IP associated with authentication |
 | WinRM Network           | `05_winrm_network_connection.png`     | Shows Dest_ip , network communication to TCP/5985  |
@@ -334,7 +334,6 @@ Approved administrative IPs can also be maintained in a lookup to reduce false p
 
 ---
 
-## 13. Conclusion
 
 ## 13. Conclusion
 
